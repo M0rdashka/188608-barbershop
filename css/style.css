@@ -1,0 +1,169 @@
+body {
+  font-size: 16px;
+  line-height: 22px;
+  color: #696969;
+  font-weight: normal;
+  font-family: Roboto, Arial, sans-serif;
+  min-width: 1024px;
+  width: 100%;
+}
+
+h1, h2 {
+  font-size: 36px;
+  line-height: 36px;
+  color: #000;
+  font-weight: normal;
+  font-family: Roboto, Arial, sans-serif;
+}
+b {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
+  text-transform: uppercase;
+  font-family: Roboto, Arial, sans-serif;
+}
+.main_header {
+  width: 100%;
+  height: 62px;
+  background: #eee;
+}
+.index_logo {
+  margin-left: 160px;
+  float: left;
+}
+.main_navigation {
+  width: 740px;
+  min-height: 56px; 
+  background: #eee;
+  text-align: center; 
+  margin: 0 auto;
+  display: inline-block;
+  float: left;
+}
+.main_navigation ul li { 
+  list-style: none;
+  display: inline-block;
+}
+.main_navigation ul li a { 
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 20px;
+  color: black;
+}
+.buy_block a { 
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase; 
+  float: right;
+  text-align: center;
+  margin: 16px 32px 16px 0px;
+  line-height: 21px;
+  color: black;  
+}
+.slider {
+  width: auto;
+  height: 319px;
+  position: ;
+  display: block;
+  background: #eee;
+}
+.slider input label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 8px;
+  z-index: 100;
+  position: relative;
+  margin-right: 5px;
+  padding-top: 219px;
+  text-align: center;
+}
+.slider div img {
+  position: absolute;
+  top: 0px;
+  left: 750px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
+.more_info {
+  width: 240px;
+  height: 38px;
+  background: #ff3344;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  float: left; 
+  margin-top: 50px;
+} 
+.slider > input:checked + label + div {
+  display: block; 
+  width: 460px;
+}  
+.slider div {
+  display: none;
+}
+.input + label {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 8px;  
+}
+.order {
+  width: 140px;
+  height: 38px;
+  background: #ff3344;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  float: left; 
+  margin-top: 200px;
+} 
+.services {
+  display: inline-block;
+  width: 1024px;
+  height: 300px;
+}
+.services div {
+  margin: 80px 0 0 80px;
+  float: left;
+  width: 240px;
+  height: 299px;
+}
+.left_nerds {
+  display: inline-block;
+  width: 760px;
+  float: left;
+  margin: 80px 65px 0 160px;
+}
+.right_nerds {
+  display: inline-block;
+  width: auto;
+  float: left;
+  margin-top: 80px;
+}
+.contacts {
+  width: auto;
+  height: 168px;
+  display: block;
+  outline: 2px solid;
+  margin: 20px 160px;
+}
+.contacts a {
+  float: left;
+  margin-left: 100px;
+}
+
+.map {
+  margin: 86px 160px 0 160px;
+}
+.footer {
+  width: auto;
+  height: 220px;
+}
